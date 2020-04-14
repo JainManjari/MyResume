@@ -1,0 +1,137 @@
+body > div
+{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+
+}
+#circle
+{
+	margin:100px auto 100px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background-color: purple;
+/*	padding: 50px;
+*/	box-sizing: border-box;
+}
+
+#circle > div
+{
+	margin:auto;
+}
+#shape
+{
+	height: 100px;
+	width: 100px;
+	background-color: aliceblue;
+}
+
+#rectangle
+{
+     height: 100px;
+     width: 125px;
+     background-color: aliceblue;
+}
+
+#circle1
+{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: aliceblue;
+}
+
+#oval
+{
+	height: 80px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#triangle-up
+{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid aliceblue;
+}
+
+#triangle-down
+{
+	height: 0;
+	width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top:100px solid aliceblue;
+}
+
+#triangle-top-left
+{
+	width: 0;
+	height: 0;
+	border-right: 100px solid transparent;
+	border-top:100px solid aliceblue;
+}
+
+#triangle-bottom-left
+{
+	width: 0;
+	height: 0;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid aliceblue;
+}
+
+#triangle-bottom-right
+{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid aliceblue;
+}
+
+#triangle-left
+{
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 100px solid aliceblue;
+}
+
+#triangle-right
+{
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 100px solid aliceblue;
+}
+#buttons
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	/*margin-left: 45%;*/
+}
+
+#buttons button
+{
+	box-sizing: border-box;
+	padding:10px 30px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	width: 200px;
+	/*cursor: pointer;*/
+
+
+}
+
+#buttons button:hover
+{
+	cursor: pointer;
+	box-shadow: 0px 0px 25px 5px grey;
+}

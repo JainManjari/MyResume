@@ -1,0 +1,13 @@
+#catch
+{
+    position:absolute;
+    height: 10vh;
+    width:10vw;
+    background-color: #b916f4;
+    color:white;
+    font-size: 1.7vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

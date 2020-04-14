@@ -1,0 +1,32 @@
+#instructions
+{
+    position: fixed;
+    top:5%;
+    left:5%;
+    height:auto;
+    width:15vw;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin: 2px;
+    background: linear-gradient(45deg, #EC6262,#E1D276);
+    font-size: 1rem;
+    font-family: Georgia;
+    padding:0px 10px;
+    color:#FEF8DD;
+    z-index: 10;
+
+}
+
+
+#ball
+{
+    background-color: red;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin: 1px;
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+
